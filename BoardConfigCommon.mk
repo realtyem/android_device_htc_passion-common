@@ -29,6 +29,9 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 
 TARGET_BOOTLOADER_BOARD_NAME := mahimahi
 
+TARGET_KERNEL_CONFIG := cyanogenmod_mahimahi_defconfig
+TARGET_KERNEL_SOURCE := kernel/htc/passion
+
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := WEXT
 WPA_SUPPLICANT_VERSION      := VER_0_6_X
